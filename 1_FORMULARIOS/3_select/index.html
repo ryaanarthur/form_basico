@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <form action="/usuarios" method="POST">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="" id="nome" placeholder="Nome" required>
+        </div>
+
+        <!--input radio-->
+
+        <div>
+            <p>Dia da Independência do Brasil ?</p>
+
+            <div>
+                <input type="radio" id="opcao1" name="independência">
+                <label for="opcao1">15 de novembro</label>
+            </div>
+            <div>
+                <input type="radio" id="opcao2" name="independência">
+                <label for="opcao2">07 de setembro</label>
+            </div>
+        </div>
+
+        <!--select-->
+        <div>
+            <label for="turma">Selecione a sua turma:</label>
+            <select name="turma" id="turma">
+                <option disabled selected>Selecione...</option>
+                <option value="01ma">01MA</option>
+                <option value="01mb">01MB</option>
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
