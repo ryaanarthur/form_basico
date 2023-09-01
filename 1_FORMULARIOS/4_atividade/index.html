@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulárie</h1>
+    </header>
+    <form action="">
+        <p>Cadastro</p>
+        <div>
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" required placeholder="Digite o seu nome">
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input id="email" type="email" required placeholder="Digite seu E-mail">
+        </div>
+        <div>
+            <label for="senha">Senha</label>
+            <input id="senha" type="password"required placeholder="Digite sua senha">
+        </div>
+        <div>
+            <label for="data">Data de Aniversario</label>
+            <input id="data" type="date" required placeholder="Digite sua data de aniversario">
+        </div>
+        <div>
+            <p>Materia preferida</p>
+            <input id="le" type="radio" name="nome">
+            <label for="le">Matematica</label>
+        </div>
+        <div>
+            <input id="he" type="radio" name="nome">
+            <label for="he">Fisica</label>
+        </div>
+        <div>
+            <input id="ed" type="radio" name="nome"> 
+            <label for="ed">Historia</label>
+        </div>
+        <div>
+            <input id="pl" type="radio" name="nome">
+            <label for="pl">Geografia</label>
+        </div>
+        <div>
+            <label for="turma">Selecione a sua turma:</label>
+            <select name="turma" id="turma">
+                <option disabled selected>Selecione...</option>
+                <option value="01ma">01MA</option>
+                <option value="01mb">01MB</option>
+                <option value="01mc">01MC</option>
+                <option value="01md">01MD</option>
+            </select>
+        </div>
+        <button>Enviar</button>
+ 
+    </form>
+</body>
+</html>
