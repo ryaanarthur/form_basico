@@ -1,3 +1,9 @@
 h1 {
-    color: lawngreen;
+    color: aquamarine;
+}
+
+p {
+    color: coral;
+    background: rgb(107, 113, 190);
+    font-size: 24px;
 }
