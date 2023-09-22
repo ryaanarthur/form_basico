@@ -1,3 +1,6 @@
+.cor-amarela {
+    color: yellow;
+}
 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: indigo;
@@ -10,6 +13,20 @@ p {
     line-height: 36px;
 }
 
+h2 {
+    color: blue;
+}
 .fundo-verde {
     background: #0f0;
 }
+
+.fonte-grande {
+    font-size: 50px;
+}
+
+#titulo-principal {
+    background: black;
+    color: white;
+}
+
+/* especificidade */
